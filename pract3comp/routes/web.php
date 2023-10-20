@@ -35,3 +35,5 @@ use Illuminate\Support\Facades\Route;
 Route::view('/', 'welcome')->name('apodoInicio');
 Route::view('/form', 'formulario')->name('apodoFormulario');
 Route::view('/loquequieroolvidar', 'recuerdos')->name('apodoRecuerdos');
+
+Route::view('/componentes', 'vista1')->name('apodoVista1');
